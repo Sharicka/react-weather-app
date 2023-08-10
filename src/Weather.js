@@ -48,7 +48,7 @@ export default function Weather() {
         </strong>{" "}
         and is{" "}
         <a
-          href="https://github.com/Sharicka/weather-app"
+          href="https://github.com/Sharicka/react-weather-app"
           target="_blank"
           rel="noreferrer"
         >

@@ -68,6 +68,7 @@ li {
   );
   border: 1px solid #ced4da;
   max-width: 600px;
+  height: 250px;
   margin: 60px auto 0 auto;
   padding: 20px;
 }
@@ -100,4 +101,26 @@ li {
   line-height: 50px;
   font-weight: 400;
   margin-left: 10px;
+}
+
+.Weather .search-form {
+  margin-top: 10px;
+}
+
+.Weather .form-control {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.Weather button {
+  margin-left: 10px;
+  font-size: 12px;
+  padding: 10px;
+  background: #6bc5b7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
 }

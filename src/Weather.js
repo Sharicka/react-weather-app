@@ -33,14 +33,30 @@ export default function Weather() {
               <span>°C</span>
             </div>
           </div>
-          <div className="weather-details">
-            <ul>
-              Humidity: <li>59 %</li>
-              Wind: <li>45 km/h</li>
-            </ul>
-          </div>
+          <ul>
+            <li className="weather-details">Humidity:%</li>
+            <li className="weather-details">Wind:km/h</li>
+          </ul>
         </div>
       </div>
+      <p>
+        This project was coded by{" "}
+        <strong>
+          <a href="https://www.instagram.com/f.o.o.d.with.m.e/">
+            Sharicka Clarke
+          </a>
+        </strong>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/Sharicka/weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on Github
+        </a>{" "}
+        hosted on{" "}
+        <a href="https://fluffy-dolphin-a400ea.netlify.app/">Netlify</a>
+      </p>
     </div>
   );
 }

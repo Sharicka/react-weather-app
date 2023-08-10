@@ -55,7 +55,7 @@ export default function Weather() {
           open-sourced on Github
         </a>{" "}
         hosted on{" "}
-        <a href="https://fluffy-dolphin-a400ea.netlify.app/">Netlify</a>
+        <a href="https://graceful-sherbet-90de15.netlify.app/">Netlify</a>
       </p>
     </div>
   );

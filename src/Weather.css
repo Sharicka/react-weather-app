@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h2,
+.units,
+#wind,
+#humidity {
+  color: #ffff;
+}
+
+.active {
+  color: #ffff;
+  cursor: default;
+}
+
+span {
+  color: #d9d7d7;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
+.temp-description {
+  text-transform: capitalize;
+}
+
+.card {
+  border-width: 20px;
+}
+
+.form-group {
+  padding-top: 10px;
+}
+
+.details {
+  color: #ffff;
+  position: relative;
+  bottom: 365px;
+  left: 480px;
+  font-family: "PT Mono", monospace;
+  font-weight: 800;
+}
+
+.right-side-info {
+  position: relative;
+  padding: 5px;
+  bottom: 210px;
+  left: 640px;
+}
+
+.day,
+.time {
+  font-weight: 800;
+  color: #d9d7d7;
+  font-family: "PT Mono", monospace;
+}
+
+.temp {
+  color: #d9d7d7;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Weather ul,
+li {
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  color: #0c0c0c;
+  opacity: 0.7;
+  margin-top: 0;
+}
+
+.Weather .container {
+  background: linear-gradient(
+    110deg,
+    rgb(147, 133, 186) 11.2%,
+    rgb(242, 198, 214) 91.1%
+  );
+  margin: 5px auto;
+  padding: 30px 50px;
+  max-width: 800px;
+  border: outset;
+  box-shadow: 0 0 20px 10px rgb(0 0 0 0.3);
+}
+
+.Weather .weather-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Weather .weather-wrapper,
+.weather-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.Weather .weather-icon,
+.temp {
+  padding-top: 20px;
+}
+
+.weather-forecast {
+  font-family: "PT Mono", monospace;
+  margin-top: 20px;
+  text-align: center;
+  color: #d9d7d7;
+  font-weight: 800;
+}
+
+.forecast-temperature-min {
+  opacity: 0.6;
+}

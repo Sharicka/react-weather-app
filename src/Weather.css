@@ -2,26 +2,12 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.Weather a {
-  text-decoration: none;
-  color: #6bc5b7;
-}
-
-.Weather .current-city {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 700;
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 20px 0 0 0;
+  line-height: 29px;
   color: #d9d7d7;
-  font-family: "Courier New", Courier, monospace;
-  margin-top: 10px;
-}
-
-.Weather p {
-  text-align: center;
-  font-size: 12px;
-  line-height: 25px;
-  font-weight: 400;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .Weather span {
@@ -36,7 +22,6 @@
 }
 
 .Weather ul {
-  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -46,81 +31,51 @@ li {
   font-size: 14px;
   font-family: "PT Mono", monospace;
   font-weight: 400;
-  color: #0c0c0c;
   opacity: 0.7;
-  margin-top: 0;
+  list-style: none;
 }
 
 .Weather .weather-details {
   font-size: 12px;
   position: relative;
-  bottom: 10px;
-  left: 200px;
   font-family: "PT Mono", monospace;
   margin-top: 0;
 }
 
-.Weather .container {
+.Weather {
   background: linear-gradient(
     110deg,
     rgb(147, 133, 186) 11.2%,
     rgb(242, 198, 214) 91.1%
   );
   border: 1px solid #ced4da;
-  max-width: 600px;
-  height: 250px;
+  max-width: 750px;
+  height: 350px;
   margin: 60px auto 0 auto;
   padding: 20px;
 }
 
-.Weather .weather-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.Weather .weather-wrapper,
-.weather-icon {
-  display: flex;
-  flex-direction: row;
-}
-
-.Weather .weather-wrapper,
-.weather-icon img {
-  width: 100px;
-  height: 120px;
-}
-
-.Weather .weather-icon,
-.temp {
-  padding-top: 20px;
-}
-
-.Weather .weather-wrapper,
-.temp strong {
+.Weather .temp strong {
   font-size: 60px;
   line-height: 50px;
   font-weight: 400;
   margin-left: 10px;
 }
 
-.Weather .search-form {
-  margin-top: 10px;
-}
-
 .Weather .form-control {
+  margin-top: 10px;
   font-size: 12px;
-  font-weight: 300;
+  width: 300px;
   padding: 10px;
   border: none;
   border-radius: 3px;
 }
 
-.Weather button {
-  margin-left: 10px;
+.Weather .btn {
+  margin-top: 13px;
   font-size: 12px;
-  padding: 10px;
+  padding: 8px;
   background: #6bc5b7;
   color: #fff;
-  border: none;
   border-radius: 3px;
 }

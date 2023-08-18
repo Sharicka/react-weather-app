@@ -10,13 +10,6 @@
   color: #d9d7d7;
 }
 
-.Weather span {
-  font-size: 20px;
-  font-weight: 300;
-  position: relative;
-  top: -30px;
-}
-
 .Weather .temp {
   color: #d9d7d7;
 }
@@ -24,14 +17,12 @@
 .Weather ul {
   padding: 0;
   margin: 0;
+  opacity: 0.7;
 }
 
-.Weather ul,
-li {
+.Weather li {
   font-size: 14px;
   font-family: "PT Mono", monospace;
-  font-weight: 400;
-  opacity: 0.7;
   list-style: none;
 }
 
@@ -53,13 +44,6 @@ li {
   height: 350px;
   margin: 60px auto 0 auto;
   padding: 20px;
-}
-
-.Weather .temp strong {
-  font-size: 60px;
-  line-height: 50px;
-  font-weight: 400;
-  margin-left: 10px;
 }
 
 .Weather .form-control {

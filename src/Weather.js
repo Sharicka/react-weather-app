@@ -30,10 +30,7 @@ export default function Weather() {
             alt="weather icon"
             className="weather-icon"
           />
-          <div className="temp">
-            <strong>33</strong>
-            <span>°C</span>
-          </div>
+          33°C
         </div>
         <div className="col-6">
           <ul>

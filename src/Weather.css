@@ -1,21 +1,27 @@
 .Weather {
   font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+    110deg,
+    rgb(147, 133, 186) 11.2%,
+    rgb(242, 198, 214) 91.1%
+  );
+  border: 1px solid #ced4da;
+  height: 350px;
+  margin: 30px auto;
+  padding: 20px;
 }
 
 .Weather h1 {
+  padding: 7px;
   font-size: 24px;
   font-weight: 900;
-  margin: 20px 0 0 0;
+  margin: 5px 0 0 0;
   line-height: 29px;
   color: #d9d7d7;
 }
 
-.Weather .temp {
-  color: #d9d7d7;
-}
-
 .Weather ul {
-  padding: 0;
+  padding: 7px;
   margin: 0;
   opacity: 0.7;
 }
@@ -30,33 +36,19 @@
   font-size: 12px;
   position: relative;
   font-family: "PT Mono", monospace;
-  margin-top: 0;
 }
 
-.Weather {
-  background: linear-gradient(
-    110deg,
-    rgb(147, 133, 186) 11.2%,
-    rgb(242, 198, 214) 91.1%
-  );
-  border: 1px solid #ced4da;
-  max-width: 750px;
-  height: 350px;
-  margin: 60px auto 0 auto;
-  padding: 20px;
-}
-
-.Weather .form-control {
-  margin-top: 10px;
+.Weather .form-control,
+form {
+  margin-bottom: 1px;
   font-size: 12px;
   width: 300px;
-  padding: 10px;
-  border: none;
+  padding: 8px;
   border-radius: 3px;
 }
 
 .Weather .btn {
-  margin-top: 13px;
+  margin-left: 150px;
   font-size: 12px;
   padding: 8px;
   background: #6bc5b7;

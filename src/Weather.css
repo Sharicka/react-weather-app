@@ -65,6 +65,7 @@ form {
   font-weight: lighter;
   color: #d9d7d7;
   font-size: 64px;
+  line-height: 44px;
 }
 
 .Weather .unit {

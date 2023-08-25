@@ -36,6 +36,8 @@
   font-size: 12px;
   position: relative;
   font-family: "PT Mono", monospace;
+  margin-top: 15px;
+  margin-left: 25px;
 }
 
 .Weather .form-control,
@@ -56,21 +58,21 @@ form {
   border-radius: 3px;
 }
 
-.Weather img {
+.Weather canvas {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-top: 20px;
 }
 
 .Weather .temp {
   font-weight: lighter;
   color: #d9d7d7;
-  font-size: 64px;
-  line-height: 44px;
+  font-size: 85px;
+  margin-left: 14px;
 }
 
 .Weather .unit {
   color: #d9d7d7;
   font-size: 16px;
   position: relative;
-  top: -30px;
+  top: -40px;
 }

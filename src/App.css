@@ -1,5 +1,6 @@
-.App {
-  max-width: 600px;
+.App,
+.container {
+  max-width: 750px;
   margin: 0 auto;
 }
 

@@ -6,7 +6,7 @@
     rgb(242, 198, 214) 91.1%
   );
   border: 1px solid #ced4da;
-  height: 350px;
+  height: auto;
   margin: 30px auto;
   padding: 20px;
 }

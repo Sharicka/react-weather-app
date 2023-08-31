@@ -12,7 +12,11 @@ function App() {
       <footer>
         This project was coded by{" "}
         <strong>
-          <a href="https://www.instagram.com/f.o.o.d.with.m.e/">
+          <a
+            href="https://www.instagram.com/f.o.o.d.with.m.e/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Sharicka Clarke
           </a>
         </strong>{" "}
